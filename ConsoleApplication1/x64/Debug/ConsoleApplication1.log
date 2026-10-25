@@ -1,0 +1,27 @@
+﻿  Complex.cpp
+  ConsoleApplication1.cpp
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(13,10): error C2511: 'Complex::Complex(double)' : impossible de trouver la fonction membre surchargée dans 'Complex'
+      C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.h(2,7):
+      voir la déclaration de 'Complex'
+  
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(15,5): error C2671: 'Complex::{ctor}' : les fonctions membres static n'ont pas de pointeurs 'this'
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(16,5): error C2671: 'Complex::{ctor}' : les fonctions membres static n'ont pas de pointeurs 'this'
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(150,15): error C2511: 'void Complex::afficher(void) const' : impossible de trouver la fonction membre surchargée dans 'Complex'
+      C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.h(2,7):
+      voir la déclaration de 'Complex'
+  
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(152,13): error C2671: 'Complex::afficher' : les fonctions membres static n'ont pas de pointeurs 'this'
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(154,9): error C2671: 'Complex::afficher' : les fonctions membres static n'ont pas de pointeurs 'this'
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(155,26): error C2671: 'Complex::afficher' : les fonctions membres static n'ont pas de pointeurs 'this'
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.cpp(157,27): error C2671: 'Complex::afficher' : les fonctions membres static n'ont pas de pointeurs 'this'
+  Génération de code en cours...
+C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,15): error C2665: 'Complex::Complex' : aucune fonction surchargée n’a pu convertir tous les types d’arguments.
+      C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\Complex.h(10,2):
+      est peut-être 'Complex::Complex(const Complex &)'
+          C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,15):
+          'Complex::Complex(const Complex &)' : impossible de convertir l'argument 1 de 'int' en 'const Complex &'
+              C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,16):
+              Raison : impossible de convertir de 'int' en 'const Complex'
+      C:\Users\salah\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,15):
+      lors de la tentative de mise en correspondance de la liste des arguments '(int)'
+  
